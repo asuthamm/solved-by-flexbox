@@ -1,0 +1,38 @@
+{
+  "name": "solved-by-flexbox",
+  "description": "A showcase of problems once hard or impossible to solve with CSS alone, now made trivially easy with Flexbox.",
+  "homepage": "https://philipwalton.github.io/solved-by-flexbox",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/philipwalton/solved-by-flexbox.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "gulp",
+    "start": "gulp serve",
+    "deploy": "rm -rf solved-by-flexbox && NODE_ENV=production gulp deploy"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.5.0",
+    "connect": "^3.6.6",
+    "cssnano": "^4.1.10",
+    "front-matter": "^3.0.1",
+    "fs-extra": "^7.0.1",
+    "globby": "^9.1.0",
+    "gulp": "^4.0.2",
+    "he": "^1.2.0",
+    "highlight.js": "^9.15.6",
+    "html-minifier": "^3.5.21",
+    "markdown-it": "^8.4.2",
+    "normalize.css": "^8.0.1",
+    "nunjucks": "^3.2.1",
+    "postcss": "^7.0.14",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-import": "^12.0.1",
+    "serve-static": "^1.13.2",
+    "shelljs": "^0.8.3",
+    "suitcss-utils-display": "^1.0.2",
+    "suitcss-utils-text": "^1.0.0",
+    "yargs": "^13.2.2"
+  }
+}
